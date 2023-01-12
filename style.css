@@ -4,19 +4,26 @@
 }
 
 body {
-    background-color: black;
+    background-color: white;
+    color: black;
 }
+
+.darktheme {
+    background-color: black !important;
+    color: white !important;
+}
+
 
 header {
     padding-top: 50px;
-    color: white;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 #time {
     padding-top: 200px;
     font-size: 150px;
-    color: white;
 }
 
 body {
@@ -36,7 +43,7 @@ body {
 button {
     /* Variables */
     --button_radius: 0.75em;
-    --button_color: #e8e8e8;
+    --button_color: #23ce29;
     --button_outline_color: #000000;
     width: 100px;
     font-size: 17px;

@@ -17,6 +17,7 @@ start.onclick = function(){
         start.innerHTML="Start"
     }
 }
+
 reset.onclick = function(){
     time.innerHTML ="00:00:00"
     h = 0
@@ -59,3 +60,10 @@ setInterval(function(){
         time.innerHTML=curr
     }
 },1000)
+
+let themebtn = document.getElementById("theme");
+themebtn.onclick=function(){
+
+let themetoggle = document.getElementById("body");
+themetoggle.classList.toggle("darktheme");
+}
